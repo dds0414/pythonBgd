@@ -5,5 +5,4 @@ with Image(filename='pdf/1.pdf', width=2480, height=3509, resolution=300) as pdf
         print('format =', image.format)
         print('width =', image.width)
         print('height =', image.height)
-        # image.resize(400, 300)
         image.save(filename='result1.jpg')
